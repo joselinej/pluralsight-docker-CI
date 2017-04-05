@@ -11,7 +11,7 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: pluralsight-docker
+      appname: circleciintegration
 test:
   override:    
     - mocha
