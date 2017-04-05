@@ -13,5 +13,9 @@ app.get('/', function(req, res) {
   });
 });
 //added a commet
-app.listen(8080);
+
+var lport = process.env.PORT || 3000;
+
+app.listen(lport); 
+
 module.exports.getApp = app;

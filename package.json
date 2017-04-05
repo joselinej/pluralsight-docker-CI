@@ -13,6 +13,6 @@
     "supertest": "1.1.0"
   },
   "scripts":{
-    "start":"node app"
+    "start":"node app.js"
   }
 }
